@@ -1,0 +1,56 @@
+
+// $enable-grid-classes:false;
+// $primary:#30ff94;
+// $secondary:#cacaca;
+// $success:#015668;
+// $danger:#06648c;
+// $info:#0f81c7;
+// $warning:#0de2ea;
+// $light:#ececec;
+// $dark:#222;
+// $spacer:1rem;
+// $border-width:1px;
+// $btn-border-radius-lg:25px;
+// $card-border-radius:25px;
+
+/* Custom Styles */
+
+.showcase {
+  height: 600px;
+  padding: 100px 20px;
+  text-align: center;
+  border-bottom: #ccc 1px solid;
+  margin-bottom: 30px;
+  color: #fff;
+  background: url("../imgs/showcase.jpg") no-repeat center center;
+
+  h1 {
+      font-size: 55px;
+      padding-bottom: 20px;
+      color: #fff;
+  }
+
+  p {
+      font-size: 20px;
+      margin-bottom: 50px;
+  }
+}
+
+.boxes {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+
+    .fa {
+        font-size: 45px !important;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        padding: 15px;
+        border: #ccc 1px solid;
+    }
+}
+
+@import "blog.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
